@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jp-zengin-name"
+version = "0.1.0"
+description = "Format Japanese bank-transfer account names (Zengin kana) with legal-entity abbreviations."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "NEXUS tools" }]
+keywords = ["mcp", "mcp-server", "japanese", "ai-agents"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Natural Language :: Japanese",
+  "Topic :: Text Processing :: Linguistic",
+]
+dependencies = []
+
+[project.scripts]
+jp-zengin-name = "zenginname.server:main"
+
+[project.urls]
+Homepage = "https://github.com/ayatrader/jp-zengin-name"
+Source = "https://github.com/ayatrader/jp-zengin-name"
+
+[tool.setuptools]
+packages = ["zenginname"]
