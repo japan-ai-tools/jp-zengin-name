@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ayatrader/jp-zengin-name",
+  "title": "JP Zengin Name",
+  "description": "Format Japanese bank-transfer account names (Zengin kana) with legal-entity abbreviations.",
+  "repository": {
+    "url": "https://github.com/ayatrader/jp-zengin-name",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "jp-zengin-name",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
