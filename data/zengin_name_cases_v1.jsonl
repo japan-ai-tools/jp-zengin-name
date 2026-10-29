@@ -1,0 +1,30 @@
+{"id": 1, "input": "株式会社 ガイタメドットコム", "expected": "ｶ)ｶﾞｲﾀﾒﾄﾞﾂﾄｺﾑ", "kind": "entity_start"}
+{"id": 2, "input": "ガイタメドットコム 株式会社", "expected": "ｶﾞｲﾀﾒﾄﾞﾂﾄｺﾑ(ｶ", "kind": "entity_end"}
+{"id": 3, "input": "ガイタメドットコム株式会社 オキナワシシャ", "expected": "ｶﾞｲﾀﾒﾄﾞﾂﾄｺﾑ(ｶ)ｵｷﾅﾜｼｼﾔ", "kind": "entity_middle"}
+{"id": 4, "input": "かぶしきがいしゃ にっぽんしょうじ", "expected": "ｶ)ﾆﾂﾎﾟﾝｼﾖｳｼﾞ", "kind": "spelled_entity"}
+{"id": 5, "input": "カブシキカイシャ サクラ", "expected": "ｶ)ｻｸﾗ", "kind": "spelled_entity"}
+{"id": 6, "input": "有限会社 ヤマダショウテン", "expected": "ﾕ)ﾔﾏﾀﾞｼﾖｳﾃﾝ", "kind": "entity_start"}
+{"id": 7, "input": "合同会社 ネクサス・ツールズ", "expected": "ﾄﾞ)ﾈｸｻｽ.ﾂ-ﾙｽﾞ", "kind": "dot_dash"}
+{"id": 8, "input": "ゴウドウガイシャ アオバ", "expected": "ﾄﾞ)ｱｵﾊﾞ", "kind": "spelled_entity"}
+{"id": 9, "input": "合名会社 タナカ", "expected": "ﾒ)ﾀﾅｶ", "kind": "entity_start"}
+{"id": 10, "input": "合資会社 スズキ", "expected": "ｼ)ｽｽﾞｷ", "kind": "entity_start"}
+{"id": 11, "input": "医療法人 ヒカリカイ", "expected": "ｲ)ﾋｶﾘｶｲ", "kind": "entity_start"}
+{"id": 12, "input": "一般社団法人 ニホンアイエイキョウカイ", "expected": "ｼﾔ)ﾆﾎﾝｱｲｴｲｷﾖｳｶｲ", "kind": "entity_start"}
+{"id": 13, "input": "一般財団法人 ミドリキキン", "expected": "ｻﾞｲ)ﾐﾄﾞﾘｷｷﾝ", "kind": "entity_start"}
+{"id": 14, "input": "特定非営利活動法人 ミライ", "expected": "ﾄｸﾋ)ﾐﾗｲ", "kind": "entity_start"}
+{"id": 15, "input": "学校法人 アサヒガクエン", "expected": "ｶﾞｸ)ｱｻﾋｶﾞｸｴﾝ", "kind": "entity_start"}
+{"id": 16, "input": "社会福祉法人 ヒマワリカイ", "expected": "ﾌｸ)ﾋﾏﾜﾘｶｲ", "kind": "entity_start"}
+{"id": 17, "input": "税理士法人 ホシ", "expected": "ｾﾞｲ)ﾎｼ", "kind": "entity_start"}
+{"id": 18, "input": "ホシ 税理士法人", "expected": "ﾎｼ(ｾﾞｲ", "kind": "entity_end"}
+{"id": 19, "input": "サクラショウジ株式会社 トウキョウ営業所", "expected": "ｻｸﾗｼﾖｳｼﾞ(ｶ)ﾄｳｷﾖｳ(ｴｲ", "kind": "two_entities"}
+{"id": 20, "input": "ヤマダ タロウ", "expected": "ﾔﾏﾀﾞ ﾀﾛｳ", "kind": "person"}
+{"id": 21, "input": "やまだ たろう", "expected": "ﾔﾏﾀﾞ ﾀﾛｳ", "kind": "hiragana"}
+{"id": 22, "input": "キャット・フード", "expected": "ｷﾔﾂﾄ.ﾌ-ﾄﾞ", "kind": "small_kana"}
+{"id": 23, "input": "ジョン　スミス", "expected": "ｼﾞﾖﾝ ｽﾐｽ", "kind": "fullwidth_space"}
+{"id": 24, "input": "ヴィクトリー", "expected": "ｳﾞｲｸﾄﾘ-", "kind": "vu"}
+{"id": 25, "input": "ﾔﾏﾀﾞ  ﾀﾛｳ", "expected": "ﾔﾏﾀﾞ ﾀﾛｳ", "kind": "halfwidth_double_space"}
+{"id": 26, "input": "株式会社 ABCホールディングス", "expected": "ｶ)ABCﾎ-ﾙﾃﾞｲﾝｸﾞｽ", "kind": "latin"}
+{"id": 27, "input": "株式会社 abcデザイン", "expected": "ｶ)ABCﾃﾞｻﾞｲﾝ", "kind": "lowercase"}
+{"id": 28, "input": "株式会社 ２１セイキ", "expected": "ｶ)21ｾｲｷ", "kind": "fullwidth_digits"}
+{"id": 29, "input": "ヰセキ", "expected": "ｲｾｷ", "kind": "old_kana"}
+{"id": 30, "input": "ケ゛ンキ", "expected": "ｹﾞﾝｷ", "kind": "split_dakuten"}
