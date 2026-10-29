@@ -1,0 +1,9 @@
+# JP Zengin Name
+
+> Formats Japanese bank-transfer account names (振込名義カナ) into the Zengin form banks accept: half-width katakana, small kana made large, ー->-, ・->., legal-entity words (株式会社 etc., 59 entries) replaced by abbreviations with the start/middle/end parenthesis rule (ｶ) / (ｶ) / (ｶ). Checks length (voiced kana = 2 chars), refuses unread kanji, and compares names for payment reconciliation. MCP server, CLI, Python. Stdlib, no network, MIT.
+
+- zenginname/name.py: format_name(text, max_length=30), check_name(halfwidth), match_names(a, b)
+- zenginname/tables.py: entity abbreviation table and character sets (source: https://www.gaitame.com/account/zengin.html)
+- zenginname/server.py: MCP stdio server; tools zengin_name_format, zengin_name_check, zengin_name_match
+- data/zengin_name_cases_v1.jsonl: 30 cases; python -m zenginname.bench
+- tests/test_zenginname.py: 23 tests
