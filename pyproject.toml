@@ -23,8 +23,8 @@ dependencies = []
 jp-zengin-name = "zenginname.server:main"
 
 [project.urls]
-Homepage = "https://github.com/ayatrader/jp-zengin-name"
-Source = "https://github.com/ayatrader/jp-zengin-name"
+Homepage = "https://github.com/japan-ai-tools/jp-zengin-name"
+Source = "https://github.com/japan-ai-tools/jp-zengin-name"
 
 [tool.setuptools]
 packages = ["zenginname"]
