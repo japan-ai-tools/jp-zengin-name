@@ -1,6 +1,6 @@
 # JP Zengin Name
 
-<!-- mcp-name: io.github.ayatrader/jp-zengin-name -->
+<!-- mcp-name: io.github.japan-ai-tools/jp-zengin-name -->
 
 **Format, check and compare Japanese bank-transfer account names (振込名義・口座名義カナ) the way Japanese banks accept them. MCP server, CLI and Python library. Standard library only, no network, MIT.**
 
