@@ -1,0 +1,2 @@
+[console_scripts]
+jp-zengin-name = zenginname.server:main
