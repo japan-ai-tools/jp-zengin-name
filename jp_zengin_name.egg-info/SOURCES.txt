@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+jp_zengin_name.egg-info/PKG-INFO
+jp_zengin_name.egg-info/SOURCES.txt
+jp_zengin_name.egg-info/dependency_links.txt
+jp_zengin_name.egg-info/entry_points.txt
+jp_zengin_name.egg-info/top_level.txt
+tests/test_zenginname.py
+zenginname/__init__.py
+zenginname/__main__.py
+zenginname/bench.py
+zenginname/name.py
+zenginname/server.py
+zenginname/tables.py
