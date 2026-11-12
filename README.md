@@ -28,7 +28,13 @@ What it does:
 
 Every message comes in English and Japanese.
 
+## Use as an Agent Skill
+
+`SKILL.md` tells the agent to call the formatter instead of converting names by hand. Add it with the [skills](https://github.com/vercel-labs/skills) CLI: `npx skills add japan-ai-tools/jp-zengin-name` (it reads the `SKILL.md` at the repository root). / スキルとして入れるなら `npx skills add japan-ai-tools/jp-zengin-name`。
+
 ## MCP server (for AI agents)
+
+Protocol: the stdio server speaks both MCP 2026-07-28 (stateless: `server/discover`, version and capabilities in each request's `_meta`, no `initialize`) and the older `initialize` flow (2025-06-18, 2025-03-26, 2024-11-05). Tests: `tests/test_mcp_2026.py`. 新しい MCP 2026-07-28(握手なし)と従来の initialize の両方で動きます。
 
 ```json
 {"mcpServers": {"jp-zengin-name": {"command": "python", "args": ["-m", "zenginname.server"], "cwd": "/path/to/jp-zengin-name"}}}
