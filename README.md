@@ -82,3 +82,9 @@ Errors: `E_EMPTY` `E_KANJI_NEEDS_READING` `E_CHAR_NOT_ALLOWED` `E_SMALL_KANA`. W
 ## 日本語
 
 振込名義(口座名義カナ)を、銀行の振込で通る形(全銀の半角カナ)に整える道具です。小さいカナを大きく、`ー`→`-`、`・`→`.`、株式会社などは位置で変わる略語(先頭 `ｶ)`・途中 `(ｶ)`・末尾 `(ｶ`)にします。濁点は1文字に数えて字数を確かめます。漢字の読みは推測しません(法人の種類の言葉だけ変換し、ほかの漢字は `E_KANJI_NEEDS_READING` で返します)。入金消込で、通帳の名義と取引先名が同じかも比べられます。標準ライブラリだけ・外部通信なし・MIT。
+
+## Related tool from the same author
+
+- If you keep a supplier list for transfers, [invoice-watch](https://github.com/japan-ai-tools/invoice-watch) compares it with the NTA's published invoice-registration data and reports only the suppliers whose registration was cancelled, expired or renamed.
+
+関連(同じ作者): 振込先の取引先の一覧があるなら、[取引先インボイス見張り(invoice-watch)](https://github.com/japan-ai-tools/invoice-watch) が国税庁の公表データと照らして、登録の取消・失効・名称の変化だけを知らせます。
